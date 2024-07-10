@@ -131,7 +131,7 @@
                 </configuration>
             </plugin>
         </plugins>
-        <finalName>GetsionCliniqueIntegration</finalName>
+        <finalName>gestioncliniqueintegration</finalName>
     </build>
 
 </project>
