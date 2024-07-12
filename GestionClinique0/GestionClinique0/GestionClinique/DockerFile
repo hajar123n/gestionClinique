@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD trajet/gestioncliniqueintegration.jar gestioncliniqueintegration.jar
+ADD target/GetsionCliniqueIntegration.jar gestioncliniqueintegration.jar
 ENTRYPOINT ["java", "-jar", "/gestioncliniqueintegration.jar"]
