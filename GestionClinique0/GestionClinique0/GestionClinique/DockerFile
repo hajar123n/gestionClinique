@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
 ADD target/GetsionCliniqueIntegration.jar GetsionCliniqueIntegration.jar
-ENTRYPOINT ["java", "-jar", "/gestioncliniqueintegration.jar"]
+ENTRYPOINT ["java", "-jar", "/GetsionCliniqueIntegration.jar"]
